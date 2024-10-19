@@ -19,6 +19,12 @@ public class Arvaa {
                 stop = true;
                 break;
             }
+            
+            if (guess.equalsIgnoreCase(rightName)) {
+                System.out.println("Congrats, you got the right one!");
+                break;
+            }
+
         }
     }
 }
