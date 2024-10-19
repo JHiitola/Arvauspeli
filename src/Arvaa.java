@@ -24,7 +24,10 @@ public class Arvaa {
                 System.out.println("Congrats, you got the right one!");
                 break;
             }
-
         }
+            if (!stop) {
+                System.out.println("You tried to guess a total of " + tries + " times.");
+            }
+
     }
 }
